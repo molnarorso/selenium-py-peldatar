@@ -8,8 +8,11 @@ browser.maximize_window()
 browser.get(URL)
 
 try:
-    browser.find_element_by_id("openwindow")
-    browser.find_element_by_name("courses")
-    browser.find_element_by_xpath('//*[@id="radio-btn-example"]')
+    element1 = browser.find_element_by_id("openwindow")
+    element2 = browser.find_element_by_name("courses")
+    element3 = browser.find_element_by_xpath('//*[@id="name"]')
+    print(element1.text)
+    print(element2.tag_name)
+    print(element3.get_attribute("class"))
 except:
     print("An error occurred")

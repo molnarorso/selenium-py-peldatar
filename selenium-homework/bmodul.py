@@ -1,0 +1,1 @@
+bmodul_variable = 4567

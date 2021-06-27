@@ -1,5 +1,6 @@
 user_age = input("your age? ")
 drink_chosen = input("beer or coke? ")
+
 if int(user_age) < 18:
     if drink_chosen == "beer":
         print("sorry, you are not allowed to have a beer")

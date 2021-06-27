@@ -12,6 +12,7 @@
 # print(consumption_both_ways, "liter")
 # print(price_both_ways, "forint")
 
+
 motorway_consumption = int(input("országúti fogyasztás: "))
 urban_consumption = int(input("városi fogyasztás: "))
 motorway_road = int(input("országúton megteendő út: "))

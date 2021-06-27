@@ -1,4 +1,5 @@
 list_of_inputs = []
+
 user_input = 0
 
 while True:

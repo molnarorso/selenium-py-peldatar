@@ -10,6 +10,7 @@
 # else:
 #     print("It is not a leap year")
 
+
 year_input = int(input("Enter a year, and I will tell you if it is a leap year: "))
 
 def function(year_input):

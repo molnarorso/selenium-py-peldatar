@@ -19,25 +19,20 @@ e9 = browser.find_element_by_id('result')
 
 e4.click()
 if e9.text == 'element1 was clicked':
-    assert e9.text == 'element1 was clicked'
     print(e9.text)
 else:
     e5.click()
     if e9.text == 'element2 was clicked':
-        assert e9.text == 'element2 was clicked'
         print(e9.text)
     else:
         e6.click()
         if e9.text == 'element3 was clicked':
-            assert e9.text == 'element3 was clicked'
             print(e9.text)
         else:
             e7.click()
             if e9.text == 'element4 was clicked':
-                assert e9.text == 'element4 was clicked'
                 print(e9.text)
             else:
                 e8.click()
                 if e9.text == 'element5 was clicked':
-                    assert e9.text == 'element5 was clicked'
                     print(e9.text)

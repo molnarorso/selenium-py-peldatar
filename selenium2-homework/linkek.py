@@ -9,6 +9,7 @@ browser.get(URL)
 
 elements = browser.find_elements_by_tag_name('a')
 links = []
+
 for i in elements:
     links.append(i.get_attribute('href'))
 

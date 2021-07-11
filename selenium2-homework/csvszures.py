@@ -8,4 +8,3 @@ with open('fajlcsvszureshez.csv', 'w', newline='', encoding='utf-8') as f0:
             f0.write(',')
             f0.write(i[0])
             f0.write('\n')
-

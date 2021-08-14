@@ -1,5 +1,5 @@
-import time
 from selenium import webdriver
+import time
 import pyautogui
 
 PATH = "C:\\Users\\ors\\Downloads\\chromedriver.exe"

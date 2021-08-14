@@ -1,8 +1,5 @@
-import time
-
 from selenium import webdriver
 import csv
-from selenium.webdriver.common.keys import Keys
 import pyautogui
 
 PATH = "C:\\Users\\ors\\Downloads\\chromedriver.exe"
@@ -36,7 +33,3 @@ with open('table_in.csv', 'r', newline='', encoding='utf-8') as my_source_file:
 
 browser.implicitly_wait(1)
 browser.find_element_by_xpath("//button[normalize-space()='Export HTML table to CSV file']").click()
-
-
-
-

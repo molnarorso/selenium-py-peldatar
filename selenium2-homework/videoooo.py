@@ -1,8 +1,5 @@
-import time
-
 from selenium import webdriver
-from selenium.webdriver import ActionChains
-import pyautogui
+import time
 
 PATH = "C:\\Users\\ors\\Downloads\\chromedriver.exe"
 URL = "http://localhost:9999/videos.html"

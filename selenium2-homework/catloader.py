@@ -37,9 +37,9 @@ time.sleep(5)
 for k in range(1, 6):
     text_for_file_name = browser.find_element_by_xpath(f"/html/body/div[1]/div[{k}]/p").text
     stripped_text_for_file_name = text_for_file_name.strip('Cat id: ')
-    with open(f"{k+16}_{stripped_text_for_file_name}.png", "wb") as file:
+    with open(f"{k+15}_{stripped_text_for_file_name}.png", "wb") as file:
         file.write(browser.find_element_by_xpath(f"/html/body/div[1]/div[{k}]/img").screenshot_as_png)
-    shutil.move(f"{k+16}_{stripped_text_for_file_name}.png", 'cats')
+    shutil.move(f"{k+15}_{stripped_text_for_file_name}.png", 'cats')
 
 browser.find_element_by_xpath("//button[normalize-space()='More Images']").click()
 
